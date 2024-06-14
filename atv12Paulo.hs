@@ -18,8 +18,8 @@ verificarNum x
 	| x<0 = -1      
 	| otherwise = 0
 	
--- delta :: Float -> Float -> Float -> [Float]
--- delta a b c = [(-b + sqrt ((b * b) - (4 * a * c))) / (2 * a), (-b - sqrt sqrt ((b * b) - (4 * a * c))) / (2 * a)]
+-- delta :: Float -> Float -> Float -> (Float, Float)
+-- delta a b c = [(-b + sqrt ((b^2) - (4 * a * c))) / (2 * a), (-b - sqrt ((b * b) - (4 * a * c))) / (2 * a)]
 
 fatorial :: Float->Float
 fatorial 1 = 1
